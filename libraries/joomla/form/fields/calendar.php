@@ -160,7 +160,7 @@ class JFormFieldCalendar extends JFormField
 
 		!$this->getAttribute('dateStart')	? null : $attributes['dateStart'] = $this->getAttribute('dateStart');
 		!$this->getAttribute('dateEnd')		? null : $attributes['dateEnd'] = $this->getAttribute('dateEnd');
-		
+
 		if ($this->required)
 		{
 			$attributes['required'] = '';
